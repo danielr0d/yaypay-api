@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Yaypay.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+572934e969f693b70b7eada6870cf1b31f1d4c19")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53664425c450b743946842d5ad4c0e08a434d923")]
 [assembly: System.Reflection.AssemblyProductAttribute("Yaypay.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Yaypay.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

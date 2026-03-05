@@ -1,6 +1,6 @@
 namespace Yaypay.Domain;
 
-public enum Models
+public enum PaymentStatus
 {
     Pending,
     Approved,
@@ -12,7 +12,7 @@ public class PaymentRecord
     public string Id { get; set; }  = Guid.NewGuid().ToString();
     public decimal Amount { get; set; }
     public string Description { get; set; } = string.Empty; 
-    public Models Status { get; set; } = Models.Pending;
+    public PaymentStatus Status { get; set; } = PaymentStatus.Pending;
     public DateTime Created { get; set; } = DateTime.UtcNow;
 }
 

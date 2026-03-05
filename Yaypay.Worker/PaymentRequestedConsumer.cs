@@ -1,11 +1,11 @@
 using MassTransit;
+using Microsoft.Extensions.Logging;
 using MongoDB.Driver;
-using Yaypay.Domain; 
-using Yaypay.Worker;
+using Yaypay.Domain;
 
 namespace Yaypay.Worker;
 
-public class PaymentRequestedConsumer : IConsumer<PaymentRequestedEvent>
+public class PaymentRequestedConsumer : IConsumer<PaymentResquestedEvent>
 {
     private readonly IMongoCollection<PaymentRecord> _collection;
     private readonly ILogger<PaymentRequestedConsumer> _logger;
@@ -16,7 +16,7 @@ public class PaymentRequestedConsumer : IConsumer<PaymentRequestedEvent>
         _logger = logger;
     }
 
-    public async Task Consume(ConsumeContext<PaymentRequestedEvent> context)
+    public async Task Consume(ConsumeContext<PaymentResquestedEvent> context)
     {
         var message = context.Message;
         _logger.LogInformation("Iniciando processamento do pagamento: {PaymentId} no valor de {Amount}", message.PaymentId, message.Amount);

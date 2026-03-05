@@ -1,7 +1,9 @@
 using MassTransit;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using MongoDB.Driver;
-using Payment.Domain;
-using Payment.Worker;
+using Yaypay.Domain;
+using Yaypay.Worker;
 
 var builder = Host.CreateApplicationBuilder(args);
 
@@ -26,4 +28,4 @@ builder.Services.AddMassTransit(x =>
 });
 
 var host = builder.Build();
-host.Run();
+await host.RunAsync();

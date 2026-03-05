@@ -1,6 +1,4 @@
-﻿namespace Yaypay.Api;
-
-using MassTransit;
+﻿using MassTransit;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;   
 using Yaypay.Domain;
@@ -33,8 +31,8 @@ app.MapPost("/payments", async ([FromBody] PaymentRecord request,
     request.Status = PaymentStatus.Pending;
     await collection.InsertOneAsync(request);
 
-    var event = new PaymentRequestedEvent(request.Id, request.Amount);
-    await publishEndpoint.Publish(event);
+    var paymentEvent = new PaymentResquestedEvent(request.Id, request.Amount);
+    await publishEndpoint.Publish(paymentEvent);
 
     return Results.Accepted($"/payments/{request.Id}", request);
 });    

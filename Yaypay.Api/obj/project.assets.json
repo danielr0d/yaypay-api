@@ -346,6 +346,16 @@
         "runtime": {
           "lib/net7.0/ZstdSharp.dll": {}
         }
+      },
+      "Yaypay.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Yaypay.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Yaypay.Domain.dll": {}
+        }
       }
     }
   },
@@ -913,12 +923,18 @@
         "zstdsharp.port.0.7.3.nupkg.sha512",
         "zstdsharp.port.nuspec"
       ]
+    },
+    "Yaypay.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Yaypay.Domain/Yaypay.Domain.csproj",
+      "msbuildProject": "../Yaypay.Domain/Yaypay.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
       "MassTransit.RabbitMQ >= 9.1.0-develop.90",
-      "MongoDB.Driver >= 3.7.0"
+      "MongoDB.Driver >= 3.7.0",
+      "Yaypay.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -945,7 +961,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/danie/codes/projects/yaypay-api/Yaypay.Domain/Yaypay.Domain.csproj": {
+              "projectPath": "/home/danie/codes/projects/yaypay-api/Yaypay.Domain/Yaypay.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -991,6 +1011,9 @@
           }
         ],
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

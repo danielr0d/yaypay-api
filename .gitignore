@@ -1,4 +1,4 @@
-# Build results
+# Build results and artifacts
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
@@ -9,14 +9,14 @@ x86/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
 bld/
-[Bb]in/
-[Oo]bj/
+bin/
+obj/
 [Ll]og/
 [Ll]ogs/
+build.log
 
 # Visual Studio cache/options
 .vs/
-.vscode/
 *.suo
 *.user
 *.userosscache
@@ -26,12 +26,12 @@ bld/
 .vscode/
 *.code-workspace
 
-# Rider
+# JetBrains Rider IDE
 .idea/
 *.sln.iml
-*.swp
-*.sln.DotSettings.user
 riderModule.iml
+*.DotSettings.user
+*.sln.DotSettings.user
 
 # Test Results
 [Tt]est[Rr]esult*/
@@ -49,13 +49,8 @@ riderModule.iml
 
 # User-specific files
 *.rsuser
-*.suo
 *.user
 *.userosscache
-*.sln.docstates
-
-# Rider specific
-*.DotSettings.user
 
 # Environment variables
 .env
@@ -71,15 +66,7 @@ riderModule.iml
 ehthumbs.db
 Thumbs.db
 
-# Build results directory
-bin/
-obj/
-
-# Dependencies lock files (optional - uncomment if using)
-# package-lock.json
-# yarn.lock
-
-# Temporary files
+# Temporary and backup files
 *.tmp
 *.temp
 *.bak
@@ -98,6 +85,13 @@ coverage/
 BenchmarkDotNet.Artifacts/
 
 # Docker volumes and data
+docker-volumes/
+data/
+
+# Project-specific generated files
+*.nuget.dgspec.json
+*.nuget.g.props
+*.nuget.g.targets
 # Uncomment if using Docker volumes for local development
 # /docker-volumes/
 # /data/
