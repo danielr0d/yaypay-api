@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "/CXO+6dXTJQ=",
+  "success": true,
+  "projectFilePath": "/home/danie/codes/projects/yaypay-api/Yaypay.Api/Yaypay.Api.csproj",
+  "expectedPackageFiles": [
+    "/home/danie/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
+    "/home/danie/.nuget/packages/masstransit/9.1.0-develop.90/masstransit.9.1.0-develop.90.nupkg.sha512",
+    "/home/danie/.nuget/packages/masstransit.abstractions/9.1.0-develop.90/masstransit.abstractions.9.1.0-develop.90.nupkg.sha512",
+    "/home/danie/.nuget/packages/masstransit.rabbitmq/9.1.0-develop.90/masstransit.rabbitmq.9.1.0-develop.90.nupkg.sha512",
+    "/home/danie/.nuget/packages/microsoft.extensions.configuration.abstractions/10.0.0/microsoft.extensions.configuration.abstractions.10.0.0.nupkg.sha512",
+    "/home/danie/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.0/microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
+    "/home/danie/.nuget/packages/microsoft.extensions.diagnostics.abstractions/10.0.0/microsoft.extensions.diagnostics.abstractions.10.0.0.nupkg.sha512",
+    "/home/danie/.nuget/packages/microsoft.extensions.diagnostics.healthchecks/10.0.0/microsoft.extensions.diagnostics.healthchecks.10.0.0.nupkg.sha512",
+    "/home/danie/.nuget/packages/microsoft.extensions.diagnostics.healthchecks.abstractions/10.0.0/microsoft.extensions.diagnostics.healthchecks.abstractions.10.0.0.nupkg.sha512",
+    "/home/danie/.nuget/packages/microsoft.extensions.fileproviders.abstractions/10.0.0/microsoft.extensions.fileproviders.abstractions.10.0.0.nupkg.sha512",
+    "/home/danie/.nuget/packages/microsoft.extensions.hosting.abstractions/10.0.0/microsoft.extensions.hosting.abstractions.10.0.0.nupkg.sha512",
+    "/home/danie/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.0/microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512",
+    "/home/danie/.nuget/packages/microsoft.extensions.options/10.0.0/microsoft.extensions.options.10.0.0.nupkg.sha512",
+    "/home/danie/.nuget/packages/microsoft.extensions.primitives/10.0.0/microsoft.extensions.primitives.10.0.0.nupkg.sha512",
+    "/home/danie/.nuget/packages/mongodb.bson/3.7.0/mongodb.bson.3.7.0.nupkg.sha512",
+    "/home/danie/.nuget/packages/mongodb.driver/3.7.0/mongodb.driver.3.7.0.nupkg.sha512",
+    "/home/danie/.nuget/packages/rabbitmq.client/7.2.0/rabbitmq.client.7.2.0.nupkg.sha512",
+    "/home/danie/.nuget/packages/sharpcompress/0.30.1/sharpcompress.0.30.1.nupkg.sha512",
+    "/home/danie/.nuget/packages/snappier/1.0.0/snappier.1.0.0.nupkg.sha512",
+    "/home/danie/.nuget/packages/system.threading.ratelimiting/8.0.0/system.threading.ratelimiting.8.0.0.nupkg.sha512",
+    "/home/danie/.nuget/packages/zstdsharp.port/0.7.3/zstdsharp.port.0.7.3.nupkg.sha512",
+    "/home/danie/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.3/microsoft.aspnetcore.app.ref.10.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

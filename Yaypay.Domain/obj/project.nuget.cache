@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VZRdcPV7yN4=",
+  "success": true,
+  "projectFilePath": "/home/danie/codes/projects/yaypay-api/Yaypay.Domain/Yaypay.Domain.csproj",
+  "expectedPackageFiles": [
+    "/home/danie/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.3/microsoft.aspnetcore.app.ref.10.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
